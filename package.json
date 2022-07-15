@@ -1,0 +1,32 @@
+{
+  "name": "create-monkey",
+  "version": "1.0.0-alpha.0",
+  "description": "create-monkey",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "create-monkey": "index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "files": [
+    "index.js",
+    "template-*"
+  ],
+  "scripts": {},
+  "keywords": [
+    "create",
+    "vite"
+  ],
+  "author": "lisonge",
+  "license": "MIT",
+  "dependencies": {
+    "kolorist": "^1.5.1",
+    "minimist": "^1.2.6",
+    "prompts": "^2.4.2"
+  }
+}
