@@ -1,6 +1,6 @@
 {
   "name": "create-monkey",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "create-monkey",
   "main": "index.js",
   "type": "module",
@@ -24,6 +24,14 @@
   ],
   "author": "lisonge",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lisonge/create-monkey.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lisonge/create-monkey/issues"
+  },
+  "homepage": "https://github.com/lisonge/create-monkey#readme",
   "dependencies": {
     "kolorist": "^1.5.1",
     "minimist": "^1.2.6",
