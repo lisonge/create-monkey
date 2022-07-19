@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import monkey from 'vite-plugin-monkey';
+import monkey, { cdn } from 'vite-plugin-monkey';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,16 +15,11 @@ export default defineConfig({
       },
       build: {
         externalGlobals: {
-          react: [
-            'React',
-            (version) =>
-              `https://cdn.jsdelivr.net/npm/react@${version}/umd/react.production.min.js`,
-          ],
-          'react-dom': [
+          react: cdn.jsdelivr('React', 'umd/react.production.min.js'),
+          'react-dom': cdn.jsdelivr(
             'ReactDOM',
-            (version) =>
-              `https://cdn.jsdelivr.net/npm/react-dom@${version}/umd/react-dom.production.min.js`,
-          ],
+            'umd/react-dom.production.min.js'
+          ),
         },
       },
     }),

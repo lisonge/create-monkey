@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite';
 import preact from '@preact/preset-vite';
-import monkey from 'vite-plugin-monkey';
+import monkey, { cdn } from 'vite-plugin-monkey';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,11 +15,7 @@ export default defineConfig({
       },
       build: {
         externalGlobals: {
-          preact: [
-            'preact',
-            (version) =>
-              `https://cdn.jsdelivr.net/npm/preact@${version}/dist/preact.min.js`,
-          ],
+          preact: cdn.jsdelivr('preact', 'dist/preact.min.js'),
         },
       },
     }),
