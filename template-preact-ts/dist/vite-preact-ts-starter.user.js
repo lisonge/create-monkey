@@ -7,7 +7,7 @@
 // @require    https://cdn.jsdelivr.net/npm/preact@10.10.0/dist/preact.min.js
 // ==/UserScript==
 
-// use vite-plugin-monkey@1.1.1 at 2022-07-20T06:40:12.578Z
+// use vite-plugin-monkey@1.1.2 at 2022-07-20T09:14:08.841Z
 
 ;(({ cssText = "" }) => {
   const style = document.createElement("style");

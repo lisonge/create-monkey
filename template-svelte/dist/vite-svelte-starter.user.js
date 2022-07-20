@@ -6,7 +6,7 @@
 // @match      https://www.google.com/
 // ==/UserScript==
 
-// use vite-plugin-monkey@1.1.1 at 2022-07-20T06:41:59.800Z
+// use vite-plugin-monkey@1.1.2 at 2022-07-20T09:14:54.628Z
 
 ;(({ cssText = "" }) => {
   const style = document.createElement("style");
@@ -17,7 +17,7 @@
   "cssText": ":root {\n  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;\n  font-size: 16px;\n  line-height: 24px;\n  font-weight: 400;\n\n  color-scheme: light dark;\n  color: rgba(255, 255, 255, 0.87);\n  background-color: #242424;\n\n  font-synthesis: none;\n  text-rendering: optimizeLegibility;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  -webkit-text-size-adjust: 100%;\n}\n\na {\n  font-weight: 500;\n  color: #646cff;\n  text-decoration: inherit;\n}\na:hover {\n  color: #535bf2;\n}\n\nbody {\n  margin: 0;\n  display: flex;\n  place-items: center;\n  min-width: 320px;\n  min-height: 100vh;\n}\n\nh1 {\n  font-size: 3.2em;\n  line-height: 1.1;\n}\n\n.card {\n  padding: 2em;\n}\n\n#app {\n  max-width: 1280px;\n  margin: 0 auto;\n  padding: 2rem;\n  text-align: center;\n}\n\nbutton {\n  border-radius: 8px;\n  border: 1px solid transparent;\n  padding: 0.6em 1.2em;\n  font-size: 1em;\n  font-weight: 500;\n  font-family: inherit;\n  background-color: #1a1a1a;\n  cursor: pointer;\n  transition: border-color 0.25s;\n}\nbutton:hover {\n  border-color: #646cff;\n}\nbutton:focus,\nbutton:focus-visible {\n  outline: 4px auto -webkit-focus-ring-color;\n}\n\n@media (prefers-color-scheme: light) {\n  :root {\n    color: #213547;\n    background-color: #ffffff;\n  }\n  a:hover {\n    color: #747bff;\n  }\n  button {\n    background-color: #f9f9f9;\n  }\n}\n.logo.svelte-c9fbf7{height:6em;padding:1.5em;will-change:filter}.logo.svelte-c9fbf7:hover{filter:drop-shadow(0 0 2em #646cffaa)}.logo.svelte.svelte-c9fbf7:hover{filter:drop-shadow(0 0 2em #ff3e00aa)}.read-the-docs.svelte-c9fbf7{color:#888}"
 });
 
-const vite_plugin_monkey_b540399fd5729 = function() {
+const vite_plugin_monkey_d80ff5800027e = function() {
   "use strict";
   const app$1 = "";
   function noop() {
