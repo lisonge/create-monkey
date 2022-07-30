@@ -1,4 +1,6 @@
-# create-monkey
+# create-monkey (deprecated)
+
+**deprecated**, now it's going to be [packages/create-monkey](https://github.com/lisonge/vite-plugin-monkey/tree/main/packages/create-monkey)
 
 ## Scaffolding Your First Vite Monkey Project
 
